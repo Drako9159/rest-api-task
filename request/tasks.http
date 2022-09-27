@@ -1,0 +1,16 @@
+###
+GET http://localhost:3000/api
+###
+POST http://localhost:3000/api
+Content-Type: application/json
+
+{
+  "title": "Hacer sition web en angular",
+  "description": "This is my three task"
+}
+###
+
+GET http://localhost:3000/api/63336623364b46c9bde8c674
+
+###
+DELETE http://localhost:3000/api/63336623364b46c9bde8c674
