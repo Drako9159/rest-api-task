@@ -11,3 +11,4 @@ console.log("Server on port", app.get("port"));
 //npm i dotenv
 //npm i cors// para que el servidor pueda ser accedido desde cualquier lugar
 //npm i mongoose-paginate-v2// para paginar los resultados
+//npm i -D @babel/plugin-transform-runtime// para que funcione async await
