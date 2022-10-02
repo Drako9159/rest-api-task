@@ -5,12 +5,27 @@ POST http://localhost:3000/api
 Content-Type: application/json
 
 {
-  "title": "Hacer sition web en angular",
-  "description": "This is my three task"
+  "title": "Hacer sition web en python",
+  "description": "This is my three task",
+  "done": true
 }
 ###
 
 GET http://localhost:3000/api/63336623364b46c9bde8c674
 
 ###
-DELETE http://localhost:3000/api/63336623364b46c9bde8c674
+DELETE http://localhost:3000/api/63336623364b46c9bde8c67
+
+###
+GET http://localhost:3000/api/done
+
+
+###
+PUT http://localhost:3000/api/6338d3e6f41e9fdcd4f27c46
+Content-Type: application/json
+
+{
+  "title": "Hacer sition web en una maquina virtual",
+  "description": "This is my three task",
+  "done": true
+}
